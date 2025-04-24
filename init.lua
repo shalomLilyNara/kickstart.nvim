@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 require 'core.options'
 require 'core.keymaps'
-=======
 --[[
 
 =====================================================================
@@ -217,7 +215,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.highlight.on_yank()
   end,
 })
->>>>>>> d350db2449da40df003c40d440f909d74e2d4e70
 
 -- [[ Install `lazy.nvim` plugin manager ]]
 --    See `:help lazy.nvim.txt` or https://github.com/folke/lazy.nvim for more info
@@ -239,7 +236,6 @@ vim.opt.rtp:prepend(lazypath)
 --    :Lazy update
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup({
-<<<<<<< HEAD
 require 'plugins.neotree',
 require 'plugins.colortheme',
 require 'plugins.bufferline',
@@ -249,7 +245,6 @@ require 'plugins.telescope',
 require 'plugins.lsp',
 require 'plugins.autocompletion',
 require 'plugins.alpha',
-=======
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
 
@@ -1014,5 +1009,4 @@ require 'plugins.alpha',
       lazy = '💤 ',
     },
   },
->>>>>>> d350db2449da40df003c40d440f909d74e2d4e70
 })
